@@ -7,6 +7,6 @@ Esté é um Projeto desenvolvido no treinamento da Formação NodeJS com Express
 ## Link do curso
 
 
-[Node.js com Express - Alura](https://cursos.alura.com.br/formacao-node-js-12)
+[Node.js com Express - Alura](https://cursos.alura.com.br/course/nodejs-api-rest-padronizada-escalavel)
 
   
