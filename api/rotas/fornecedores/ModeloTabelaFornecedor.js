@@ -13,16 +13,17 @@ const colunas = {
     categoria:{
         type: Sequelize.ENUM('ração', 'brinquedos'),
         allowNull:false,
-        timestamps:true,
-        createdAt:'dataCriacao',
-        updateAt: 'dataAtualizacao',
-        version: 'versao'
+       
     },
 }
 
 const opcoes = {
     freezeTableName:true,
-    tableName:'fornecedores'
+    tableName:'fornecedores',
+    timestamps:true,
+    createdAt:'dataCriacao',
+    updatedAt: 'dataAtualizacao',
+    version: 'versao'
 }
 
 module.exports = instancia.define('fornecedor', colunas, opcoes)
